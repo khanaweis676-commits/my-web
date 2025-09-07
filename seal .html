@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Products Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #f4f7fb;
+      color: #333;
+    }
+    header {
+      background: #1e293b;
+      color: white;
+      padding: 15px 50px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 28px;
+    }
+    .products {
+      padding: 40px 20px;
+      background: #f8fafc;
+    }
+    .products h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 26px;
+      color: #1e3a8a;
+    }
+    .product-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .product-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 250px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+    .product-card img {
+      width: 100%;
+      border-radius: 8px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .product-card h3 {
+      margin-top: 15px;
+      font-size: 20px;
+    }
+    .product-card p {
+      font-size: 14px;
+      margin: 8px 0;
+    }
+    .btn {
+      background: #38bdf8;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #0284c7;
+    }
+    footer {
+      text-align: center;
+      background: #1e293b;
+      color: white;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Store</h1>
+  </header>
+
+  <section class="products">
+    <h2>Our Products</h2>
+    <div class="product-container">
+      
+      <!-- Product 1: Gramophone -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150?text=Gramophone" alt="Gramophone">
+        <h3>Gramophone</h3>
+        <p>पुराना स्टाइल का संगीत सुनने का उपकरण।</p>
+        <p><strong>Price: ₹2000</strong></p>
+        <button class="btn" onclick="buyNow('Gramophone')">Buy Now</button>
+      </div>
+
+      <!-- Product 2: Chess Board -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150?text=Chess+Board" alt="Chess Board">
+        <h3>Chess Board</h3>
+        <p>लकड़ी से बना सुंदर शतरंज बोर्ड।</p>
+        <p><strong>Price: ₹1500</strong></p>
+        <button class="btn" onclick="buyNow('Chess Board')">Buy Now</button>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 My Store | All rights reserved.</p>
+  </footer>
+
+  <script>
+    function buyNow(productName) {
+      alert("धन्यवाद! आपने " + productName + " खरीदने का विकल्प चुना है।");
+    }
+  </script>
+
+</body>
+</html>
