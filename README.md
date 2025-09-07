@@ -38,24 +38,5 @@ hi frends
       transition: 0.3s;
     }
 
-    nav ul li a:hover {
-      color: #38bdf8;
-    }
-
-    /* Hero Section */
-    .hero {
-      height: 90vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      background: linear-gradient(to right, #0f172a, #1e3a8a);
-      color: white;
-      flex-direction: column;
-      padding: 20px;
-    }
-
-    .hero h2 {
-  
 
 # my-web
