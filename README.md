@@ -1,6 +1,6 @@
 hi freinds
 i am 
-a seler
+a sealer
 i will
 seal you 
 girama phone
