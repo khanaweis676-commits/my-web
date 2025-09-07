@@ -112,59 +112,8 @@ hi frends
       padding: 20px;
       margin-top: 30px;
     }
-  </style>
-</head>
-<body>
-
+ 
   <!-- Header -->
-  <header>
-    <h1>MyWebsite</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <h2>Welcome to My Website</h2>
-    <p>Beautiful, responsive and modern design using HTML, CSS & JavaScript</p>
-    <button class="btn" onclick="showMessage()">Click Me</button>
-  </section>
-
-  <!-- Cards Section -->
-  <section class="cards">
-    <div class="card">
-      <h3>Fast</h3>
-      <p>Optimized and lightweight website for better performance.</p>
-    </div>
-    <div class="card">
-      <h3>Responsive</h3>
-      <p>Looks great on mobile, tablet and desktop devices.</p>
-    </div>
-    <div class="card">
-      <h3>Modern</h3>
-      <p>Clean design with interactive elements to engage users.</p>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 MyWebsite | All rights reserved.</p>
-  </footer>
-
-  <!-- JavaScript -->
-  <script>
-    function showMessage() {
-      alert("Hello! Welcome to this website 🚀");
-    }
-  </script>
-
-</body>
-</html>
+  
 
 # my-web
