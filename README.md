@@ -1,22 +1,5 @@
-hi freinds
-this web 
-provide you
-best html code 
-this is code
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modern Website</title>
-  <style>
-    /* ======== Global Styles ======== */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: "Poppins", sans-serif;
-    }
+hi frends 
+
 
     body {
       background: #f4f7fb;
